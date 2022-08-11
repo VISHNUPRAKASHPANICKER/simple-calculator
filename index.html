@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="container">
+    <h1>CALCULATOR</h1>
+    <div class="row">
+        <form action="">
+            <input id="result" type="text" class="textbox a">
+        </form>
+    </div>
+    <div class="row">
+        <button id="btn3" onclick="clearAll()">AC</button>
+        <button onclick="display('00')">00</button>
+        <button onclick="display('%')"><i class="fa-light fa-percent"></i></button>
+        <button onclick="display('/')"><i class="fa-solid fa-divide"></i></button>
+    </div>
+    <div class="row a1">
+        <button onclick="display('7')">7</button>
+        <button onclick="display('8')">8</button>
+        <button onclick="display('9')">9</button>
+        <button onclick="display('x')"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <div class="row a1">
+        <button onclick="display('4')">4</button>
+        <button onclick="display('5')">5</button>
+        <button onclick="display('6')">6</button>
+        <button onclick="display('-')"><i class="fa-solid fa-minus"></i></button>
+    </div>
+    <div class="row a1">
+        <button onclick="display('1')">1</button>
+        <button onclick="display('2')">2</button>
+        <button onclick="display('3')">3</button>
+        <button onclick="display('+')"><i class="fa-solid fa-plus"></i></button>
+    </div>
+    <div class="row a1">
+        <button onclick="display('0')">0</button>
+        <button onclick="display('.')">.</button>
+        <button onclick="removeLast()" id="btn1" ><i class="fa-solid fa-delete-left" id="btn"></i></button>
+        <button id="btncolor" onclick="output()"><i class="fa-solid fa-equals" id="btn2"></i></button>
+    </div>
+</div>
+</body>
+<script src="./calculator.js">
+      
+</script>
+</html>

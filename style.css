@@ -1,0 +1,96 @@
+body{
+    background-image: linear-gradient(#000428,#004e92);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    width: 300px;
+    height: 460px;
+    background-image: linear-gradient(#c33764,#1d2671);
+    border-radius: 15px;
+    box-shadow: 0 0 10px black;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    margin-top: 40px;
+    padding: 0 15px;
+}
+.row button{
+    flex-grow: 1;
+    margin: 5px;
+    width: 20px;
+    background-color: dodgerblue;
+    border-color: gray;
+    border-radius: 20px;
+    font-size: 20px;
+}
+button{
+    transition: 0.4s;
+}
+button:hover{
+    background-color: aquamarine;
+}
+.textbox{
+    padding: 20px 45px;
+    margin:20px 0;
+    border-radius: 15px;
+    text-align: right;
+    background-color: #c33764;
+    border-color: purple;
+}
+.a1{
+    margin-top: 10px;
+}
+#btncolor{
+    background-color: green;
+}
+#btncolor:hover{
+    background-color:darkgreen;
+}
+.a{
+    font-size: 20px;
+    padding: 10px 10px;
+    outline: none;
+}
+.a:focus{
+    border: 2px solid rgb(158, 9, 172);
+    transition: 0.5s;
+}
+#btn{
+    font-size: 1.2rem;
+}
+#btn:hover{
+    color: purple;
+}
+#btn1{
+    background-color:gold;
+}
+#btn1:hover{
+    background-color:yellow;
+}
+#btn2{
+    font-size: 18px;
+}
+#btn2:hover{
+    color: white;
+}
+#btn3{
+    background-color: red;
+    color: white;
+}
+#btn3:hover{
+    background-color:orangered;
+    color: black;
+}
+h1{
+    display: flex;
+    justify-content: left;
+    margin-bottom: -44px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
